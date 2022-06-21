@@ -6,6 +6,13 @@
 
 def find_anagram(word, anagram):
     # [assignment] Add your code here
-
-    return True
+    
+def check(s1, s2):
+     
+    # the sorted strings are checked
+    if(sorted(word)== sorted(anagram)):
+        print("True")
+    else:
+        print("False") 
+    
 
